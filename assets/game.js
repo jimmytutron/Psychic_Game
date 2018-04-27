@@ -25,7 +25,7 @@ var result = $("#result");
 winText.html(wins);
 lossText.html(losses);
 guessesLeftText.html(guessesLeft);
-guessesMadeText.html(guessesMade);
+guessesMadeText.html("- - -");
 
 
 //A function to reset the values once the user wins or loses
@@ -53,33 +53,34 @@ document.onkeyup = function(keyPress) {
 	// console.log(userGuess);
 	// console.log(guessesLeft);
 
+	//put the value of the user's key presses into an array
 	guessesMade.push(userGuess);
 	guessesMadeText.html(guessesMade.join(", "));
 
 
-
+	//da logic. if there's still guesses left...
 	if (guessesLeft > 0){
+		//and the user's guess is CORRECT or the same as the computer's...
 		if (userGuess === computerGuess){
+			//add to win score
 			wins++;
 			winText.html(wins);
+			//them em' they won! and what the letter was.
 		result.html("<h3>wow. you won. *claps* </h3> the letter was... " + computerGuess);
 		reset();
 		}
 
 	}
+	//if there's no remaining guesses left...
 	else if (guessesLeft === 0){
+		//add to loss score
 		losses++;
 		lossText.html(losses);
+		//tell em' they're a loser and what was the correct letter.
 		result.html("<h3>loooooser!!! ya lost boiiii</h3> the letter was... " + computerGuess);
 		reset();
 	}
 }
-
-//Keep track of user's guess attempts and makes sure the guesses are actually letters
-
-
-//set the win condition, update the user's score
-
 
 
 
