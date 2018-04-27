@@ -68,7 +68,7 @@ document.onkeyup = function(keyPress) {
 			wins++;
 			winText.html(wins);
 			//tell em' they won! and what the letter was.
-		result.html("<h3>wow. you won. *claps* </h3> <h4> the letter was... " + computerGuess + "</h4><p>press any key to continue playing</p>");
+		result.html("<h3>wow. ᕕ( ᐛ )ᕗ you won. *claps* </h3> <h4> the letter was... " + computerGuess + "</h4><p>press any key to continue playing</p>");
 		reset();
 		}
 
@@ -79,12 +79,12 @@ document.onkeyup = function(keyPress) {
 		losses++;
 		lossText.html(losses);
 		//tell em' they're a loser and what was the correct letter.
-		result.html("<h3>loooooser!!! ya lost boiiii</h3> <h4> the letter was... " + computerGuess + "</h4><p>press any key to continue playing</p>");
+		result.html("<h3>   ᕕ( ⌓̈ )ᕗ looooooser~ try again?</h3> <h4> the letter was... " + computerGuess + "</h4><p>press any key to continue playing</p>");
 		reset();
 	}
 }
 
-
+//SPARKLES OOOoOOoooooOOoo
 
 var colour="white"; // "random" can be replaced with any valid colour ie: "red"...
 var sparkles=100;// increase of decrease for number of sparkles falling
