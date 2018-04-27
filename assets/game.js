@@ -66,7 +66,7 @@ document.onkeyup = function(keyPress) {
 			wins++;
 			winText.html(wins);
 			//them em' they won! and what the letter was.
-		result.html("<h3>wow. you won. *claps* </h3> the letter was... " + computerGuess);
+		result.html("<h3>wow. you won. *claps* </h3> <h4> the letter was... " + computerGuess + "</h4><p>press any key to continue playing</p>");
 		reset();
 		}
 
@@ -77,7 +77,7 @@ document.onkeyup = function(keyPress) {
 		losses++;
 		lossText.html(losses);
 		//tell em' they're a loser and what was the correct letter.
-		result.html("<h3>loooooser!!! ya lost boiiii</h3> the letter was... " + computerGuess);
+		result.html("<h3>loooooser!!! ya lost boiiii</h3> <h4> the letter was... " + computerGuess + "</h4><p>press any key to continue playing</p>");
 		reset();
 	}
 }
