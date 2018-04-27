@@ -28,6 +28,15 @@ lossText.html(losses);
 guessesLeftText.html(guessesLeft);
 guessesMadeText.html(guessesMade);
 
+
+var reset = function() {
+ guesses = 10;
+ guessesLeft = 10;
+ guessesMade = [];
+ guessesLeftText.html(guessesLeft);
+ guessesMadeText.html(guessesMade);
+}
+
 //when the user presses a key, log the key pressed in a string
 document.onkeyup = function(keyPress) {
 
@@ -43,13 +52,16 @@ document.onkeyup = function(keyPress) {
 		if (userGuess === computerGuess){
 			wins++;
 			winText.html(wins);
-		$("#winner").html("<h2>wow. you won. *claps* </h2>")
+		$("#winner").html("<h2>wow. you won. *claps* </h2>");
+		reset();
 		}
+
 	}
 	else if (guessesLeft === 0){
 		losses++;
 		lossText.html(losses);
 		$("#loser").html("<h2>loooooser!!! ya lost boiiii</h2>")
+		reset();
 	}
 }
 
