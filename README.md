@@ -19,6 +19,5 @@ Just gotta find it, look deep into your _sole_
 
 * **Jimmy Tu** - [jimmytutron](https://github.com/jimmytutron)
 
-## Acknowledgments
 
-* BLACKPINK IN YOUR AREA
+
