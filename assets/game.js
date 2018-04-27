@@ -65,7 +65,7 @@ document.onkeyup = function(keyPress) {
 			//add to win score
 			wins++;
 			winText.html(wins);
-			//them em' they won! and what the letter was.
+			//tell em' they won! and what the letter was.
 		result.html("<h3>wow. you won. *claps* </h3> <h4> the letter was... " + computerGuess + "</h4><p>press any key to continue playing</p>");
 		reset();
 		}
