@@ -19,5 +19,10 @@ Just gotta find it, look deep into your _sole_
 
 * **Jimmy Tu** - [jimmytutron](https://github.com/jimmytutron)
 
+## Acknowledgements
+Thanks to the following people for letting me borrow their code on codepen!
+Sparkly mouse trail courtesy of [@sarahwfox](https://codepen.io/sarahwfox/) and animated gradient background by [Manuel Pinto](https://codepen.io/P1N2O/)
+
+
 
 
