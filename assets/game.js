@@ -20,7 +20,7 @@ var lossText = $("#losses");
 var guessesLeftText = $("#Guesses-Left");
 var guessesMadeText = $("#Guesses-Made");
 var result = $("#result");
-
+var rules = $("#intial");
 //Fill the empty divs with content, in this case the number of wins,loses, etc; at default
 winText.html(wins);
 lossText.html(losses);
@@ -39,6 +39,8 @@ var reset = function() {
 
 //when the user presses a key, log the key pressed in a string
 document.onkeyup = function(keyPress) {
+
+	rules.html("｡･:*:･ﾟ★,｡･:*:･ﾟ☆ (´･ω･`) ｡･:*:･ﾟ★,｡･:*:･ﾟ☆");
 
 	//subtract the amount of guesses left after every key press
 	guessesLeft--;
