@@ -51,15 +51,3 @@ h2{
 	font-size: 30px;
 }
 
-.Absolute-Center {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-}
-
-.Absolute-Center.Responsive {
-  width: 70%; 
-  height: 70%;
-  min-width: 300px;
-  max-width: 900px;
-}
