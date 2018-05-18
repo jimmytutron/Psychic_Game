@@ -9,6 +9,8 @@ A modern web browser is recommended for playing the game. To play simply begin b
 Losing a lot? well there's a hidden easter egg that could help you win! 
 Just gotta find it, look deep into your _sole_
 
+You can launch the game [here!](https://jimmytutron.github.io/Psychic_Game/)
+
 
 ## Built With
 * [Javascript](https://www.javascript.com/) - programming language
